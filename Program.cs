@@ -34,7 +34,20 @@ namespace sphinxApp
                     string userInput = Console.ReadLine();
                 }
             
-     
+                AskDiferentQuestion();
+
+                void AskDiferentQuestion()
+                {
+                    Random rnd = new Random();
+                    int intRiddle = rnd.Next(4);
+
+                    Console.WriteLine(Riddles[intRiddle].Question);
+                    string userInput = Console.ReadLine();
+                    if( userInput.Contains(Riddles[intRiddle].Answer))
+                    {
+                        Console.WriteLine("You are past the first round!");
+                    }
+                }
         }
     }
 }
