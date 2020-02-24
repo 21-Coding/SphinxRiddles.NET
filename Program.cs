@@ -1,40 +1,39 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace sphinxApp
 {
+    public class Riddle 
+    {
+        public string Question;
+        public string Answer;
+    }
     class Program
     {
-        static void riddleCall(string riddles)
-        {
-           
-        if (true)
-          {
-              Console.WriteLine("Is the " + riddles);
-          }
-            
-          
-        }
+
+
         static void Main()
-        {
-            riddleCall("road smooth?");
-            string userInput = Console.ReadLine();
-            bool riddleAnswer =  bool.Parse(userInput);
+        {  
+            Riddle question1 = new Riddle();
+            question1.Question = "How many chucks could a woodchuck chuck if a woodchuck could chuck wood?";
+            question1.Answer = "200";
 
-            if (riddleAnswer == true)
-            {
-                riddleCall("sky blue?");
-                string userInput0 = Console.ReadLine();
+            Riddle question2 = new Riddle();
+            question2.Question = "If a duck could pull a truck, it would weigh how much?";
+            question2.Answer = "10lbs";
 
-                if (riddleAnswer == true)
-
-                {
-                riddleCall("grass green?");
-                string userInput1 = Console.ReadLine();
-                }
-               
-            }
+            Riddle question3 = new Riddle();
+            question3.Question = "How many licks does it take to get too the tootsie roll center of a tootsie pop?";
+            question3.Answer = "1";
             
-           
+            List<Riddle> Riddles = new List<Riddle>() { question1, question2, question3 };
+            
+                foreach(Riddle quest in Riddles) 
+                {
+                    Console.WriteLine(quest.Question);
+                }
+            
+     
         }
     }
 }
