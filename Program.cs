@@ -27,41 +27,14 @@ namespace sphinxApp
             question3.Answer = "1";
             
             List<Riddle> Riddles = new List<Riddle>() { question1, question2, question3 };
-            
+
                 foreach(Riddle quest in Riddles) 
                 {
                     Console.WriteLine(quest.Question);
+                    string userInput = Console.ReadLine();
                 }
             
      
         }
     }
 }
-
-
-
-
-
-            // riddleCall("road smooth?");
-            // string userInput = Console.ReadLine();
-            // bool riddleAnswer =  bool.Parse(userInput);
-
-            // if (riddleAnswer == true)
-            // {
-            //     riddleCall("sky blue?");
-            //     string userInput0 = Console.ReadLine();
-               
-            // }
-            //  else if (riddleAnswer == true)
-            // {
-            //     riddleCall("grass green?");
-            //     string userInput1 = Console.ReadLine();
-            // }
-            // else  
-            // {
-            //     riddleCall("lemonade yellow?");
-            //     string userInput2 = Console.ReadLine();
-            
-           
-             
-
