@@ -32,14 +32,17 @@ namespace sphinxApp
                 {
                     Console.WriteLine(quest.Question);
                     string userInput = Console.ReadLine();
+                AskDiferentQuestion();
                 }
             
-                AskDiferentQuestion();
 
                 void AskDiferentQuestion()
                 {
+                      
+
+
                     Random rnd = new Random();
-                    int intRiddle = rnd.Next(4);
+                    int intRiddle = rnd.Next(1);
 
                     Console.WriteLine(Riddles[intRiddle].Question);
                     string userInput = Console.ReadLine();
@@ -47,6 +50,12 @@ namespace sphinxApp
                     {
                         Console.WriteLine("You are past the first round!");
                     }
+                     else if (userInput.Contains(Riddles[intRiddle].Answer))
+                        {
+
+                        Console.WriteLine("Sorry! You are not past the first round!");
+
+                        }
                 }
         }
     }
