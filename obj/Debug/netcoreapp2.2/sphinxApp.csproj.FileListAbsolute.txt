@@ -1,0 +1,11 @@
+/Users/Guest/Desktop/sphinxApp/bin/Debug/netcoreapp2.2/sphinxApp.deps.json
+/Users/Guest/Desktop/sphinxApp/bin/Debug/netcoreapp2.2/sphinxApp.runtimeconfig.json
+/Users/Guest/Desktop/sphinxApp/bin/Debug/netcoreapp2.2/sphinxApp.runtimeconfig.dev.json
+/Users/Guest/Desktop/sphinxApp/bin/Debug/netcoreapp2.2/sphinxApp.dll
+/Users/Guest/Desktop/sphinxApp/bin/Debug/netcoreapp2.2/sphinxApp.pdb
+/Users/Guest/Desktop/sphinxApp/obj/Debug/netcoreapp2.2/sphinxApp.csprojAssemblyReference.cache
+/Users/Guest/Desktop/sphinxApp/obj/Debug/netcoreapp2.2/sphinxApp.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/sphinxApp/obj/Debug/netcoreapp2.2/sphinxApp.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/sphinxApp/obj/Debug/netcoreapp2.2/sphinxApp.AssemblyInfo.cs
+/Users/Guest/Desktop/sphinxApp/obj/Debug/netcoreapp2.2/sphinxApp.dll
+/Users/Guest/Desktop/sphinxApp/obj/Debug/netcoreapp2.2/sphinxApp.pdb
